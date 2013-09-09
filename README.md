@@ -2,7 +2,9 @@
 
 The checkout system has been implemented with special attention to following aspects:
 -flexibility regarding the promotional rules
+
 -inheritance and strategy pattern to preserve the decoupling between the checkout and the promotional rules
+
 -each promotional rule has a priority (the constant PRIORITY) associated. The promotions will be executed in an order based on the rule priority
 
 Please have a look at the rspec tests for a better understanding of how the app works
